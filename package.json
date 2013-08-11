@@ -1,0 +1,30 @@
+{
+  "name": "cssspitter",
+  "version": "0.0.0",
+  "description": "templating engine for css based on width and height of the window",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+  	"name": "André Alçada Padez",
+  	"email": "andre.padez@gmail.com"
+  },
+  "dependencies": {
+  	"connect": "*",
+  	"swig": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andrepadez/cssspitter.git"
+  },
+
+  "keywords": [
+    "css",
+    "mobile",
+    "ui",
+    "percentage",
+    "no-less"
+  ],
+  "license": "MIT"
+}
