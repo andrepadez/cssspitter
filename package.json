@@ -1,7 +1,7 @@
 {
   "name": "cssspitter",
-  "version": "0.0.0",
-  "description": "templating engine for css based on width and height of the window",
+  "version": "0.1.0",
+  "description": "Templating engine for CSS based on width and height of the window, used as a Connect/Express Middleware.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,8 @@
   },
 
   "keywords": [
+    "express",
+    "connect",
     "css",
     "mobile",
     "ui",
