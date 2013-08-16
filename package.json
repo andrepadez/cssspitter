@@ -1,6 +1,6 @@
 {
   "name": "cssspitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Templating engine for CSS based on width and height of the window, used as a Connect/Express Middleware.",
   "main": "index.js",
   "scripts": {

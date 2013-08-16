@@ -8,7 +8,8 @@ model.compile = function(params, callback){
 	filename = params.filename.replace(/.min/g, '');
 
 	var file = path.join(params.path, filename);
-	var template = swig.compileFile(file).render(params);
+	var template = swig.compileFile(file);
+	template = template(params);
 	if(min){
 		model.minimize(template, callback);
 	} else {
